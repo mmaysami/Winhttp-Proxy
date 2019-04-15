@@ -7,5 +7,5 @@ To use the same proxy configuration as WinINet or IE, the WinHTTP client should 
 
 This package provides VB utilities (based on a code shared by Stephen Sulzer) to automatically detect Connection Proxy configuration that can be passed down to be used for Winhttp request object. It supports both 32-bits and 64-bits platforms of Windows and MS-Office and will detect Various Proxy Configurations (Auto Detect, Auto Config URL PAC, Proxy ...).
 
-### Read More:
-https://docs.microsoft.com/en-us/windows/desktop/winhttp/setting-wininet-proxy-configurations-in-winhttp
+### References:
+ -[Microsoft Article](https://docs.microsoft.com/en-us/windows/desktop/winhttp/setting-wininet-proxy-configurations-in-winhttp)
