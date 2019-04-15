@@ -21,16 +21,25 @@ End Type
 ```
 
 > Syntax1: GetProxyInfoForUrl()
+>
 > Syntax2: GetProxyInfoForUrl("http://www.google.com", ProxyDetails)
+>
 > Syntax3: GetProxyInfoForUrl(Array("http://www.google.com", "http://www.microsoft.com"), ProxyDetails)
 >
 > Inputs:
+>
 >   opt IN  URL(s)      : Array of or Single String Full URLs to AutoDetect Proxy
+>
 >   opt OUT ProxyDetails: Custom IE Proxy Structure to Pass out IE Proxy Details and Status Code
+>
 >       (1) = IE AutoDetect    (fAutoDetect)
+>
 >       (2) = IE AutoCofigUrl  (lpszAutoConfigUrl)
+>
 >       (3) = IE Proxy         (lpszProxy)
+>
 >       (4) = IE Proxy Bypass  (lpszProxyBypass)
+>
 >       (5) = DevCode
 
 
