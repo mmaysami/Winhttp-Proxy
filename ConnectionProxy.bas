@@ -2,10 +2,11 @@ Attribute VB_Name = "ConnectionProxy"
 Option Explicit
 ' Author: Mohammad Maysami
 ' Usage: Detecting Various Proxy Configurations (Auto Detect, Auto Config URL PAC, Proxy ...)
-'   GetProxyInfoForUrl(optional "http://www.google.com", optional proxyDetail) as ProxyInfo
+'   GetProxyInfoForUrl(Optional URL, Optional ProxyDetails As Variant) As ProxyInfo
+'   	Syntax1: GetProxyInfoForUrl()
+'   	Syntax2: GetProxyInfoForUrl("http://www.google.com", ProxyDetails)
+'   	Syntax3: GetProxyInfoForUrl(Array("http://www.google.com", "http://www.microsoft.com"), ProxyDetails)
 '
-'   Auxiliary Function
-'       GetIEProxyInfo() As WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 '
 '   Possible AutoProxy Errors:
 '       12166 - error in proxy auto-config script code
@@ -108,8 +109,9 @@ Private Const WINHTTP_AUTO_DETECT_TYPE_DHCP = 1
 Private Const WINHTTP_AUTO_DETECT_TYPE_DNS = 2
 
 ' Constants for URLs to Ping and AutoDetect Proxy
-Private Const NRConnectionURL1 = "http://www.google.com"
-
+Private Const NRConnectionURL1 As String = "http://www.microsoft.com"
+Private Const NRConnectionURL2 As String = "http://www.google.com"
+Private Const NRConnectionURL3 As String = "http://www.wikipedia.com"
 '=============================================================
 '                     Lib Declarations
 '=============================================================
