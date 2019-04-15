@@ -26,14 +26,13 @@ End Type
 
 
 #### Arguments:
->   - optional IN  URL(s)      : Array of or Single String Full URLs to AutoDetect Proxy
->
->   - optional OUT ProxyDetails: Custom IE Proxy Structure to Pass out IE Proxy Details and Status Code
->     - ProxyDetails(1) = IE AutoDetect    (fAutoDetect)
->     - ProxyDetails(2) = IE AutoCofigUrl  (lpszAutoConfigUrl)
->     - ProxyDetails(3) = IE Proxy         (lpszProxy)
->	   - ProxyDetails(4) = IE Proxy Bypass  (lpszProxyBypass)
->	   - ProxyDetails(5) = DevCode
+ - optional IN  URL(s)      : Array of or Single String Full URLs to AutoDetect Proxy
+ - optional OUT ProxyDetails: Custom IE Proxy Structure to Pass out IE Proxy Details and Status Code
+	 - ProxyDetails(1) = IE AutoDetect    (fAutoDetect)
+	 - ProxyDetails(2) = IE AutoCofigUrl  (lpszAutoConfigUrl)
+	 - ProxyDetails(3) = IE Proxy         (lpszProxy)
+	 - ProxyDetails(4) = IE Proxy Bypass  (lpszProxyBypass)
+	 - ProxyDetails(5) = DevCode
 
 
 
