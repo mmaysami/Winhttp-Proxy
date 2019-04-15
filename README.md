@@ -1,6 +1,6 @@
 # Winhttp-Proxy
 
-## Setting Automatic Proxy Configuration in VBA WinHTTP 5.1 (REST API)
+### Automatic Proxy Configuration in VBA WinHTTP 5.1 (REST API)
 Applications that port from WinINet to WinHTTP may need to use the same autoproxy settings that they can retrieve under WinINet or Internet Explorer (IE). The WinHTTP version 5.1 API can retrieve and use these proxy settings. In general, WinHTTP specifies the proxy and proxy bypass servers on a per-session basis when the session is created. These settings can be overridden on a per-request basis.
 
 To use the same proxy configuration as WinINet or IE, the WinHTTP client should set proxy settings for the session. In addition, if IE or WinINet are configured to use Web Proxy Auto-Discovery (WPAD), the WinHTTP client that uses those settings must set proxy settings on a per-request basis. 
