@@ -32,15 +32,15 @@ End Type
 >
 >   opt OUT ProxyDetails: Custom IE Proxy Structure to Pass out IE Proxy Details and Status Code
 >
->       ProxyDetails(1) = IE AutoDetect    (fAutoDetect)
+>    - ProxyDetails(1) = IE AutoDetect    (fAutoDetect)
 >
->       ProxyDetails(2) = IE AutoCofigUrl  (lpszAutoConfigUrl)
+>    - ProxyDetails(2) = IE AutoCofigUrl  (lpszAutoConfigUrl)
 >
->       ProxyDetails(3) = IE Proxy         (lpszProxy)
+>    - ProxyDetails(3) = IE Proxy         (lpszProxy)
 >
->       ProxyDetails(4) = IE Proxy Bypass  (lpszProxyBypass)
+>	 - ProxyDetails(4) = IE Proxy Bypass  (lpszProxyBypass)
 >
->       ProxyDetails(5) = DevCode
+>	 - ProxyDetails(5) = DevCode
 
 
 
