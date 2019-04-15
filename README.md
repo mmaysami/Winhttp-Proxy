@@ -20,17 +20,15 @@ Public Type ProxyInfo
 End Type
 ```
 
-> Syntax1: GetProxyInfoForUrl()
+- **Call Syntax 1**: *GetProxyInfoForUrl()*
+- **Call Syntax 2**: *GetProxyInfoForUrl("http://www.google.com", ProxyDetails)*
+- **Call Syntax 3**: *GetProxyInfoForUrl(Array("http://www.google.com", "http://www.microsoft.com"), ProxyDetails)*
+
+
+#### Arguments:
+>   - optional IN  URL(s)      : Array of or Single String Full URLs to AutoDetect Proxy
 >
-> Syntax2: GetProxyInfoForUrl("http://www.google.com", ProxyDetails)
->
-> Syntax3: GetProxyInfoForUrl(Array("http://www.google.com", "http://www.microsoft.com"), ProxyDetails)
->
-#### Inputs:
->
->   - opt IN  URL(s)      : Array of or Single String Full URLs to AutoDetect Proxy
->
->   - opt OUT ProxyDetails: Custom IE Proxy Structure to Pass out IE Proxy Details and Status Code
+>   - optional OUT ProxyDetails: Custom IE Proxy Structure to Pass out IE Proxy Details and Status Code
 >
 >     - ProxyDetails(1) = IE AutoDetect    (fAutoDetect)
 >
